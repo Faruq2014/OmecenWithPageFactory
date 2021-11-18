@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18516" started-at="2021-11-17T21:20:25 EST" finished-at="2021-11-17T21:20:44 EST">
+    <groups>
+      <group name="functional">
+        <method signature="InvoiceLinkTest.clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@32709393]" name="clickInvoiceTest" class="com.Omecen.NewInvoiceTests.InvoiceLinkTest"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="InvoiceLinkTest.clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@32709393]" name="clickInvoiceTest" class="com.Omecen.NewInvoiceTests.InvoiceLinkTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="InvoiceLinkTest.clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@32709393]" name="clickInvoiceTest" class="com.Omecen.NewInvoiceTests.InvoiceLinkTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="18516" started-at="2021-11-17T21:20:25 EST" finished-at="2021-11-17T21:20:44 EST">
+      <class name="com.Omecen.NewInvoiceTests.InvoiceLinkTest">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@32709393]" name="OpenApp" is-config="true" duration-ms="7904" started-at="2021-11-17T21:20:25 EST" finished-at="2021-11-17T21:20:33 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@32709393]" name="clickInvoiceTest" duration-ms="8969" started-at="2021-11-17T21:20:33 EST" finished-at="2021-11-17T21:20:42 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickInvoiceTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@32709393]" name="tearDown" is-config="true" duration-ms="1591" started-at="2021-11-17T21:20:42 EST" finished-at="2021-11-17T21:20:44 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Omecen.NewInvoiceTests.InvoiceLinkTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
