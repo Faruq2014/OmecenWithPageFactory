@@ -1,34 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18516" started-at="2021-11-17T21:20:25 EST" finished-at="2021-11-17T21:20:44 EST">
+  <suite name="Regression Suite" duration-ms="49397" started-at="2021-11-18T21:58:51 EST" finished-at="2021-11-18T21:59:41 EST">
     <groups>
       <group name="functional">
-        <method signature="InvoiceLinkTest.clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@32709393]" name="clickInvoiceTest" class="com.Omecen.NewInvoiceTests.InvoiceLinkTest"/>
+        <method signature="PositiveLoginTest.validCredentialTest()[pri:0, instance:com.Omecen.LoginTests.PositiveLoginTest@140e5a13]" name="validCredentialTest" class="com.Omecen.LoginTests.PositiveLoginTest"/>
+        <method signature="InvoiceLinkTest.clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@2bea5ab4]" name="clickInvoiceTest" class="com.Omecen.NewInvoiceTests.InvoiceLinkTest"/>
+        <method signature="InvoiceLinkTestToFail.clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTestToFail@74294adb]" name="clickInvoiceTest" class="com.Omecen.NewInvoiceTests.InvoiceLinkTestToFail"/>
       </group> <!-- functional -->
       <group name="regression">
-        <method signature="InvoiceLinkTest.clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@32709393]" name="clickInvoiceTest" class="com.Omecen.NewInvoiceTests.InvoiceLinkTest"/>
+        <method signature="PositiveLoginTest.validCredentialTest()[pri:0, instance:com.Omecen.LoginTests.PositiveLoginTest@140e5a13]" name="validCredentialTest" class="com.Omecen.LoginTests.PositiveLoginTest"/>
+        <method signature="InvoiceLinkTest.clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@2bea5ab4]" name="clickInvoiceTest" class="com.Omecen.NewInvoiceTests.InvoiceLinkTest"/>
+        <method signature="InvoiceLinkTestToFail.clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTestToFail@74294adb]" name="clickInvoiceTest" class="com.Omecen.NewInvoiceTests.InvoiceLinkTestToFail"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="InvoiceLinkTest.clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@32709393]" name="clickInvoiceTest" class="com.Omecen.NewInvoiceTests.InvoiceLinkTest"/>
+        <method signature="PositiveLoginTest.validCredentialTest()[pri:0, instance:com.Omecen.LoginTests.PositiveLoginTest@140e5a13]" name="validCredentialTest" class="com.Omecen.LoginTests.PositiveLoginTest"/>
+        <method signature="InvoiceLinkTest.clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@2bea5ab4]" name="clickInvoiceTest" class="com.Omecen.NewInvoiceTests.InvoiceLinkTest"/>
+        <method signature="InvoiceLinkTestToFail.clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTestToFail@74294adb]" name="clickInvoiceTest" class="com.Omecen.NewInvoiceTests.InvoiceLinkTestToFail"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="18516" started-at="2021-11-17T21:20:25 EST" finished-at="2021-11-17T21:20:44 EST">
-      <class name="com.Omecen.NewInvoiceTests.InvoiceLinkTest">
-        <test-method status="PASS" signature="OpenApp()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@32709393]" name="OpenApp" is-config="true" duration-ms="7904" started-at="2021-11-17T21:20:25 EST" finished-at="2021-11-17T21:20:33 EST">
+    <test name="NegativeLoginTest" duration-ms="10052" started-at="2021-11-18T21:58:51 EST" finished-at="2021-11-18T21:59:01 EST">
+      <class name="com.Omecen.LoginTests.NegativeLoginTest">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:com.Omecen.LoginTests.NegativeLoginTest@4b53f538]" name="OpenApp" is-config="true" duration-ms="8346" started-at="2021-11-18T21:58:51 EST" finished-at="2021-11-18T21:59:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method status="PASS" signature="clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@32709393]" name="clickInvoiceTest" duration-ms="8969" started-at="2021-11-17T21:20:33 EST" finished-at="2021-11-17T21:20:42 EST">
+        <test-method status="PASS" signature="badPassword()[pri:0, instance:com.Omecen.LoginTests.NegativeLoginTest@4b53f538]" name="badPassword" duration-ms="648" started-at="2021-11-18T21:59:00 EST" finished-at="2021-11-18T21:59:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- badPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Omecen.LoginTests.NegativeLoginTest@4b53f538]" name="tearDown" is-config="true" duration-ms="963" started-at="2021-11-18T21:59:00 EST" finished-at="2021-11-18T21:59:01 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Omecen.LoginTests.NegativeLoginTest -->
+    </test> <!-- NegativeLoginTest -->
+    <test name="PositiveLoginTest" duration-ms="6467" started-at="2021-11-18T21:59:02 EST" finished-at="2021-11-18T21:59:09 EST">
+      <class name="com.Omecen.LoginTests.PositiveLoginTest">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:com.Omecen.LoginTests.PositiveLoginTest@140e5a13]" name="OpenApp" is-config="true" duration-ms="4933" started-at="2021-11-18T21:59:02 EST" finished-at="2021-11-18T21:59:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="validCredentialTest()[pri:0, instance:com.Omecen.LoginTests.PositiveLoginTest@140e5a13]" name="validCredentialTest" duration-ms="543" started-at="2021-11-18T21:59:07 EST" finished-at="2021-11-18T21:59:08 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentialTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Omecen.LoginTests.PositiveLoginTest@140e5a13]" name="tearDown" is-config="true" duration-ms="971" started-at="2021-11-18T21:59:08 EST" finished-at="2021-11-18T21:59:09 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Omecen.LoginTests.PositiveLoginTest -->
+    </test> <!-- PositiveLoginTest -->
+    <test name="InvoiceLinkTest" duration-ms="15616" started-at="2021-11-18T21:59:09 EST" finished-at="2021-11-18T21:59:24 EST">
+      <class name="com.Omecen.NewInvoiceTests.InvoiceLinkTest">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@2bea5ab4]" name="OpenApp" is-config="true" duration-ms="6493" started-at="2021-11-18T21:59:09 EST" finished-at="2021-11-18T21:59:15 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@2bea5ab4]" name="clickInvoiceTest" duration-ms="8090" started-at="2021-11-18T21:59:15 EST" finished-at="2021-11-18T21:59:23 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickInvoiceTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@32709393]" name="tearDown" is-config="true" duration-ms="1591" started-at="2021-11-17T21:20:42 EST" finished-at="2021-11-17T21:20:44 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTest@2bea5ab4]" name="tearDown" is-config="true" duration-ms="1027" started-at="2021-11-18T21:59:23 EST" finished-at="2021-11-18T21:59:24 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Omecen.NewInvoiceTests.InvoiceLinkTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- InvoiceLinkTest -->
+    <test name="InvoiceLinkTestToFail" duration-ms="16253" started-at="2021-11-18T21:59:24 EST" finished-at="2021-11-18T21:59:41 EST">
+      <class name="com.Omecen.NewInvoiceTests.InvoiceLinkTestToFail">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTestToFail@74294adb]" name="OpenApp" is-config="true" duration-ms="6523" started-at="2021-11-18T21:59:24 EST" finished-at="2021-11-18T21:59:31 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="clickInvoiceTest()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTestToFail@74294adb]" name="clickInvoiceTest" duration-ms="8664" started-at="2021-11-18T21:59:31 EST" finished-at="2021-11-18T21:59:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickInvoiceTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Omecen.NewInvoiceTests.InvoiceLinkTestToFail@74294adb]" name="tearDown" is-config="true" duration-ms="1062" started-at="2021-11-18T21:59:40 EST" finished-at="2021-11-18T21:59:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Omecen.NewInvoiceTests.InvoiceLinkTestToFail -->
+    </test> <!-- InvoiceLinkTestToFail -->
+  </suite> <!-- Regression Suite -->
 </testng-results>

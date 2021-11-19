@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="com.Omecen.NewInvoiceTests.InvoiceLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="OpenApp"/>
+          <include name="clickInvoiceTest"/>
+        </methods>
+      </class> <!-- com.Omecen.NewInvoiceTests.InvoiceLinkTest -->
+      <class name="com.Omecen.LoginTests.PositiveLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="OpenApp"/>
+          <include name="validCredentialTest"/>
+        </methods>
+      </class> <!-- com.Omecen.LoginTests.PositiveLoginTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
