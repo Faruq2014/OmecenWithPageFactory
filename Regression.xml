@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+<listeners>
+<listener class-name="com.Omecen.Listeners.OmecenListeners"></listener>
+</listeners>
+  <test  name="NegativeLoginTest">
+    <classes>
+      <class name="com.Omecen.LoginTests.NegativeLoginTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="PositiveLoginTest">
+    <classes>
+      <class name="com.Omecen.LoginTests.PositiveLoginTest"/>
+    </classes>
+  </test> 
+  
+   <test  name="InvoiceLinkTest">
+    <classes>
+      <class name="com.Omecen.NewInvoiceTests.InvoiceLinkTest"/>
+    </classes>
+  </test> 
+  <test  name="InvoiceLinkTestToFail">
+    <classes>
+      <class name="com.Omecen.NewInvoiceTests.InvoiceLinkTestToFail"/>
+    </classes>
+  </test> 
+</suite> 
